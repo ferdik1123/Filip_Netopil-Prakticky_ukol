@@ -1,0 +1,24 @@
+﻿<UserControl x:Class="ProdaneVozy.View.UserControls.SingleCell"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ProdaneVozy.View.UserControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="120" d:DesignWidth="520">
+    <Grid Background="White">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <TextBox x:Name="txtName" VerticalAlignment="Center" FontSize="25" Margin="10, 0, 0, 0" FontWeight="Bold" />
+        <TextBox x:Name="txtCost" Grid.Row="1" VerticalAlignment="Center" FontSize="25" Margin="10, 0, 0, 0" FontWeight="Bold" />
+        <TextBox x:Name="txtCostWithDPH" Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" FontSize="25" Margin="10, 0, 0, 0" FontWeight="Bold" />
+    </Grid>
+</UserControl>

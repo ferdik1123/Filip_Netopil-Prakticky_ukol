@@ -1,0 +1,45 @@
+﻿<Window x:Class="ProdaneVozy.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:UserControls="clr-namespace:ProdaneVozy.View.UserControls"
+        xmlns:local="clr-namespace:ProdaneVozy"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="700" Width="500">
+    <Grid x:Name="sellCar">
+        
+    </Grid>
+    <!--  
+    <Grid Margin="10">
+        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"   />
+            <RowDefinition Height="*"   />
+
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"   />
+        </Grid.ColumnDefinitions>
+
+        <Button x:Name="btnAdd" Margin="0,5,0,0" Click="ButtonAddFile" Height="25">Add Name</Button>
+        <DataGrid Grid.Row="1" x:Name="sellCar">
+            <TextBlock></TextBlock>
+        </DataGrid>
+              
+        <TextBox Grid.Row="2" x:Name="txtBox">
+            
+        </TextBox> 
+
+
+            <ListBox Grid.Row="1" x:Name="lstNames" />
+            <StackPanel Grid.Column="1" Grid.Row="1" Margin="0,0,0,0">
+            <TextBox x:Name="txtName" />
+            </StackPanel> 
+        
+
+        
+    </Grid>
+    -->
+</Window>
